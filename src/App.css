@@ -1,0 +1,95 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.flr:focus,
+.flr:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.cc-1j6x8,
+.cc-zl8x6,
+.cc-1j6x8,
+.cc-1j6x8 {
+  display: none !important;
+  color: white !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.cc-157aw,
+.cc-1kgzy {
+  background-color: var(--primary) !important;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--thatcolor);
+  background: var(--thatbg);
+}
+
+::selection {
+  color: var(--thatcolor);
+  background: var(--thatbg);
+}
+.cc-1j6x8,
+.cc-zl8x6,
+.cc-1j6x8,
+.cc-1j6x8,
+.cc-1si9v {
+  display: none !important;
+  color: white !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.cc-157aw,
+.cc-1kgzy {
+  background-color: hsl(var(--primary)) !important;
+}
+html body .crisp-client .cc-1brb6 .cc-1kgzy {
+  background-color: hsl(var(--primary)) !important;
+}
+
+.dialog-overlay-blur {
+  @apply fixed inset-0 backdrop-blur-sm bg-black/20 dark:bg-black/10;
+}
